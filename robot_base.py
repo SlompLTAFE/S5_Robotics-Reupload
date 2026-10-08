@@ -157,6 +157,5 @@ run_robot_task(cleaner)
 run_robot_task(security)
 run_robot_task(delivery)
 
-#REUPLOAD: Just in case some sort of Test expected a second variable to be used for the sensor, so i added them to Get and Set along side this test.
-cleaner.set_sensor_reading(40)
+#REUPLOAD: Just in case some sort of Test expected a second variable to be used for the sensor, so i added it to Set along side this test.
 print(cleaner.get_sensor_reading())
